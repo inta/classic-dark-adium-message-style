@@ -4,13 +4,13 @@
 }
 
 html {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
 
 body {
-	padding: 6px;
 	margin: 0;
+	padding: 6px;
 	background: #232729;
 	color: #eee;
 }
@@ -65,4 +65,13 @@ div.message.action span.message::before {
 div.message {
 	padding: .3ex 0;
 	line-height: 1.3;
+}
+
+.time {
+	display: none;
+	float: right;
+	margin-left: .25em;
+	color: rgba(255, 255, 255, .25);
+	font-size: .75em;
+	line-height: 2;
 }
